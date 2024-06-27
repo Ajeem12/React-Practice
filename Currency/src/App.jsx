@@ -25,19 +25,19 @@ function App() {
 
   return (
     <div
-      className="w-full h-screen flex  justify-center items-center bg-cover bg-no-repeat bg-gray-900"
+      className="w-full h-screen flex items-center bg-cover bg-no-repeat bg-gray-900"
       
     >
-      <div className="w-full flex flex-wrap pl-44">
+      <div className="w-full flex flex-wrap pl-60">
         <div className="w-full max-w-sm  rounded-lg p-5 backdrop-blur-sm bg-gray-900">
           <img
             src="https://docs.chaicode.com/_astro/chai-docs-logo._vsAsEBY_2rzJXc.webp"
-            alt=""
+            
           />
         </div>
       </div>
 
-      <div className="w-full flex flex-wrap pl-56">
+      <div className="w-full flex flex-wrap">
         <div className="w-full max-w-md   rounded-lg p-5 backdrop-blur-sm bg-gray-800">
           <form
             onSubmit={(e) => {
